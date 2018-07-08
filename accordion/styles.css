@@ -1,53 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Gravitas+One');
 
-body{
-	margin: 0;
-	padding: 0;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	color: #fff;
-	line-height: 1.5em;
-	background-color: #0d1735;
-	background-image: radial-gradient(#57617f 12%, transparent 0),radial-gradient(#57617f 12%, transparent 0);
-	background-size: 20px 20px;
-	background-position: 0 0, 30px 30px;
-}
-article{
-	display: block;
-    position: absolute;
-    width: 50%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-article aside{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	vertical-align: middle;
-}
+body{margin: 0;	padding: 0;	font-family: 'Open Sans', sans-serif;font-size: 16px;color: #fff;line-height: 1.5em;	background-color: #0d1735;background-image: radial-gradient(#57617f 12%, transparent 0),radial-gradient(#57617f 12%, transparent 0);background-size: 20px 20px;	background-position: 0 0, 30px 30px;}
+article{display: block; position: absolute;width: 50%;left: 0;right: 0;margin: 0 auto;}
+article aside{display: flex;flex-direction: column;justify-content: center;	text-align: center;vertical-align: middle;}
 /* Accordion */
-.accordion{
-	position: relative;
-	border: 1px solid #3c3333;
-	background-color: rgba(255,255,255,.2);
-}
-.accordion .accordion-header{
-	background-color: rgba(210, 203, 203, 0.4);
-	padding: 15px 35px;
-	text-align: center;
-	cursor: pointer;
-}
-.accordion .accordion-body{
-	margin: 10px 25px;
-	padding: 10px 15px;
-	display: none;
-}
+.accordion{	position: relative;border: 1px solid #3c3333;background-color: rgba(255,255,255,.2);}
+.accordion .accordion-header{background-color: rgba(210, 203, 203, 0.4);padding: 15px 35px;text-align: center;cursor: pointer;}
+.accordion .accordion-body{margin: 10px 25px;padding: 10px 15px;display: none;}
 
 @media screen and (max-width: 600px) {
-	article{
-		width: 90%;
-	}
+	article{width: 90%;}
 }
