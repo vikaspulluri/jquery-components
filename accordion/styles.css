@@ -6,7 +6,7 @@ article{display: block; position: absolute;width: 50%;left: 0;right: 0;margin: 0
 article aside{display: flex;flex-direction: column;justify-content: center;	text-align: center;vertical-align: middle;}
 /* Accordion */
 .accordion{	position: relative;border: 1px solid #3c3333;background-color: rgba(255,255,255,.2);}
-.accordion .accordion-header{background-color: rgba(210, 203, 203, 0.4);padding: 15px 35px;text-align: center;cursor: pointer;}
+.accordion .accordion-header{background-color: #fff;padding: 15px 35px;text-align: center;cursor: pointer;color: #000;}
 .accordion .accordion-body{margin: 10px 25px;padding: 10px 15px;display: none;}
 
 @media screen and (max-width: 600px) {
